@@ -1,0 +1,15 @@
+<!-- selector that is used to subsribe to the slices of the state....... -->
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of (customers | async)">
+           <td>{{customer.Name}}</td>
+           <td>{{customer.Class}}</td>
+        </tr>
+    </tbody>
+</table>

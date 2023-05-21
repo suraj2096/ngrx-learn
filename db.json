@@ -1,0 +1,14 @@
+{
+    "Customers":[
+        {
+           
+            "Name":"abc1",
+            "Class":"8"
+           
+        },
+        {
+            "Name":"abc2",
+            "Class":"9"
+        }
+    ]
+}
